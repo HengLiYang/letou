@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <style type="text/css">
+      .home {
+        height: 100vh;
+        overflow: auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      table caption {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 1em 0;
+      }
+
+      th,
+      td {
+        border: 1px solid #999;
+        text-align: center;
+        padding: 20px 0;
+      }
+      table thead th {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #008c8c;
+      }
+      table thead tr {
+        background-color: #008c8c;
+        color: #fff;
+      }
+
+      table tbody tr:nth-child(odd) {
+        background-color: #eee;
+      }
+
+      table tbody tr:hover {
+        background-color: #ccc;
+      }
+
+      table tfoot tr td {
+        text-align: right;
+        padding-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="leTouRoot"></div>
+    <script src="./dist/app.js"></script>
+  </body>
+</html>

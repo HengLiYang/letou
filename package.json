@@ -1,0 +1,26 @@
+{
+  "name": "letou",
+  "version": "1.0.0",
+  "description": "#### Description 大乐透一些简单的规律计算",
+  "main": "out.js",
+  "scripts": {
+    "start": "node ./esbuild.js",
+    "build": "node ./esbuild.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/hengruli/letou.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^10.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "esbuild": "^0.17.11",
+    "http-server": "14.1.1"
+  },
+  "type": "module"
+}
