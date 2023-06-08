@@ -4,6 +4,6 @@ esbuild
   .build({
     entryPoints: ['app.jsx'],
     bundle: true,
-    outfile: 'out.js'
+    outdir: 'public'
   })
   .catch(() => process.exit(1));
