@@ -11,7 +11,7 @@ export function Home() {
   // blue奇偶 1:1
   // blue不连号
   // blue1-10: 2
-
+  //你好
   const lucky = [...generateRedNumbers(), ...generateBlueNumbers()];
 
   return (
