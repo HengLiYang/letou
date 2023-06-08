@@ -4,12 +4,7 @@
   "description": "#### Description 大乐透一些简单的规律计算",
   "main": "out.js",
   "scripts": {
-    "start": "node ./esbuild.js",
-    "build": "node ./esbuild.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://gitee.com/hengruli/letou.git"
+    "build": "node ./esbuild"
   },
   "keywords": [],
   "author": "",
